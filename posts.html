@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Blogger</title>
 </head>
@@ -63,153 +61,150 @@
   </nav>
 
 
-<!-- Header -->
-<header id="main-header" class="bg-primary py-2 text-white">
-  <div class="container">
+  <!-- Header -->
+  <header id="main-header" class="bg-primary py-2 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>
+            <i class="fas fa-pencil-alt"></i> Posts
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Search bar -->
+  <div class="container p-4">
     <div class="row">
+      <div class="col-md-6"></div>
+
       <div class="col-md-6">
-        <h1>
-          <i class="fas fa-pencil-alt"></i> Posts
-        </h1>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-<!-- Search bar -->
-<div class="container p-4">
-  <div class="row">
-    <div class="col-md-6"></div>
-
-    <div class="col-md-6">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Posts..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-primary" type="button">Search</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Post Section -->
-<section id="post">
-  <div class="container">
-    <div class="row">
-      <div class="col my-4">
-        <div class="card">
-          <div class="card-header">
-            <h4>Latest Post</h4>
-          </div>
-          <table class="table table-striped">
-            <thead class="thead-dark">
-              <tr>
-                <th>#</th>
-                <th>Title</th>
-                <th>Category</th>
-                <th>Date</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Post One</td>
-                <td>Web Development</td>
-                <td>May 10 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Post Two</td>
-                <td>Tech Gadgets</td>
-                <td>May 11 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Post Three</td>
-                <td>Web Development</td>
-                <td>May 15 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Post Four</td>
-                <td>Business</td>
-                <td>May 22 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Post Five</td>
-                <td>Web Development</td>
-                <td>May 26 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Post Six</td>
-                <td>Web Development</td>
-                <td>May 29 2018</td>
-                <td>
-                  <a href="details.html" class="btn btn-secondary">
-                    <i class="fas fa-angle-double-right"></i> Details
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="btn-group px-4 mb-3" role="group" aria-label="Second group">
-            <button type="button" class="btn btn-outline-primary text-muted">Previous</button>
-            <button type="button" class="btn btn-outline-primary active">1</button>
-            <button type="button" class="btn btn-outline-primary">2</button>
-            <button type="button" class="btn btn-outline-primary">3</button>
-            <button type="button" class="btn btn-outline-primary">Next</button>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search Posts..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">Search</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+
+
+  <!-- Post Section -->
+  <section id="post">
+    <div class="container">
+      <div class="row">
+        <div class="col my-4">
+          <div class="card">
+            <div class="card-header">
+              <h4>Latest Post</h4>
+            </div>
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Date</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Post One</td>
+                  <td>Web Development</td>
+                  <td>May 10 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Post Two</td>
+                  <td>Tech Gadgets</td>
+                  <td>May 11 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Post Three</td>
+                  <td>Web Development</td>
+                  <td>May 15 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Post Four</td>
+                  <td>Business</td>
+                  <td>May 22 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Post Five</td>
+                  <td>Web Development</td>
+                  <td>May 26 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Post Six</td>
+                  <td>Web Development</td>
+                  <td>May 29 2018</td>
+                  <td>
+                    <a href="details.html" class="btn btn-secondary">
+                      <i class="fas fa-angle-double-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="btn-group px-4 mb-3" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-outline-primary text-muted">Previous</button>
+              <button type="button" class="btn btn-outline-primary active">1</button>
+              <button type="button" class="btn btn-outline-primary">2</button>
+              <button type="button" class="btn btn-outline-primary">3</button>
+              <button type="button" class="btn btn-outline-primary">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
-<!-- Footer -->
-<footer id="footer-main" class="p-4 bg-dark text-white">
-  <div class="container text-center">
-    <p class="lead">Copyright &copy; <span id="year"></span> Blogger</p>
-  </div>
-</footer>
+  <!-- Footer -->
+  <footer id="footer-main" class="p-4 bg-dark text-white">
+    <div class="container text-center">
+      <p class="lead">Copyright &copy; <span id="year"></span> Blogger</p>
+    </div>
+  </footer>
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
   <script>
     // Get the current year for the copyright
